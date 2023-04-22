@@ -28,6 +28,10 @@ function Greeting() {
 
   return (
     <div className='bg-[#675D50] h-screen'>
+      <div className=' h-1'> 
+      <p className='justify-center items-center relative flex text-4xl font-mono'>Simon Ullado</p>
+      <p className='justify-center items-center relative flex text-2xl font-mono'>4ITF</p>
+      </div>
       {isEditing ? (
         <EditGreeting
           firstName={firstName}
